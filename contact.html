@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Amedore Luxury Salon</title> <!-- Removed duplicate title -->
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" type="image/svg" href="./img/Amedore_Logo.png">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="preconnect" href="https://fonts.googleapis.com/">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.min.css" 
+        integrity="sha512-6f7HT84a/AplPkpSRSKWqbseRTG4aRrhadjZezYQ0oVk/B+nm/US5KzQkyyOyh0Mn9cyDdChRdS9qaxJRHayww==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/magnific-popup.min.css">
+        <link rel="stylesheet" href="css/slick.min.css">
+        <link rel="stylesheet" href="css/odometer-theme-default.css">
+        <link rel="stylesheet" href="css/jquery.flipster.min.css">
+        <link rel="stylesheet" href="css/jquery.datetimepicker.min.css">
+        <link rel="stylesheet" href="./css/style1.css">
+        <style>
+            .whatsapp-icon {
+              position: fixed;
+              bottom: 40px;
+              right: 40px;
+              background-color: #25D366;
+              color: white;
+              padding: 13px;
+              border-radius: 80%;
+              box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+              z-index: 1000;
+            }
+            .whatsapp-icon:hover {
+              background-color: #20c659;
+              color: white;
+              text-decoration: none;
+            }
+            
+        
+        footer {
+            background-color: #227b74;
+            color: #eee;
+            padding: 40px 20px;
+            border-top: 5px solid #ffc107;
+            font-family: "DM Sans", sans-serif;
+        }
+        .l>p{
+            font-size: 15px;
+            font-family: "DM Sans", sans-serif;
+            font-weight: bolder;
+        }
+        
+        .t>h3{
+            font-family: "DM Sans", sans-serif;
+        }
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            font-size: 28px;
+            font-weight: bold;
+            color: #ffc107;
+        }
+        .footer-logo img {
+            height: 200px;
+            width: 250px;
+        }
+        .social-icons a {
+            color: #ffc107;
+            margin-right: 15px;
+            font-size: 22px;
+            transition: transform 0.3s, color 0.3s;
+        }
+        .social-icons a:hover {
+            color: #ff5722;
+            transform: scale(1.2);
+        }
+        .footer-column {
+            min-width: 180px;
+        }
+        .footer-column h3 {
+            margin-bottom: 15px;
+            color: #ffc107;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+        .footer-column a {
+            display: block;
+            color: #ddd;
+            margin-bottom: 12px;
+            text-decoration: none;
+            transition: color 0.3s, padding-left 0.3s;
+        }
+        .footer-column a:hover {
+            color: #dea32c;
+            padding-left: 10px;
+        }
+        .footer-bottom {
+            text-align: center;
+            flex-basis: 100%;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #bbb;
+            border-top: 1px solid #444;
+            padding-top: 15px;
+        }
+    
+        .footer-bottom a{
+            text-decoration: none;
+    
+        }
+        .footer-bottom p {
+            margin-bottom: 5px;
+        }
+        @media (max-width: 768px) {
+            .footer-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .footer-links {
+                justify-content: center;
+            }
+        }
+        @media (max-width: 480px) {
+            .footer-column {
+                min-width: 160px;
+            }
+        }
+        </style>
+    </head>
+<body>
+    <div class="container-fluid">
+        <!-- whatsapp icon -->
+        <a href="https://wa.me/+917478585858" target="_blank" class="whatsapp-icon">
+            <i class="fab fa-whatsapp fa-2xl"></i>
+        </a>
+        <!-- whatsapp icon end -->
+        <!-- mobile nav start -->
+        <div class="th-menu-wrapper">
+            <div class="th-menu-area">
+                <div class="mobile-logo">
+                    <a href="main.html"><img src="img/Amedore_Logo.png"  alt="" style="height: 70px;"></a>
+                    <div class="close-menu"><button class="th-menu-toggle"><i class="fa-solid fa-xmark"></i></button></div>
+                </div>
+    
+                <div class="th-mobile-menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="aboutus">About us</a></li>
+                        <li><a href="pdf.html">Our Services</a></li>
+                        <li><a href="pdf.html">Blog</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="appointment">Appointment</a></li>
+                    </ul>
+                </div>
+    
+            </div>
+        </div>
+        <!-- mobile nav end -->
+        <!-- side menu start  -->
+        <div class="sidemenu-wrapper d-none d-lg-block">
+            <div class="sidemenu-content bg-black2">
+                <button class="closeButton sideMenuCls"><i class="fa-solid fa-xmark"></i></button>
+                <div class="widget footer-widget">
+                    <div class="th-widget-about">
+                        <div class="about-logo"><a href=""><img src="img/Amedore_Logo.png"  alt="" style="height: 170px;"></a></div>
+                        <p class="about-text">Best Dermatologist & Skin Specialist in Bhubaneswar</p>
+                        <div class="working-time"><span class="title">We Are Available:</span>
+                            <p class="desc">Mon-Sat: 10.00 am to 7.00 pm</p>
+                        </div>
+                        <div class="th-social footer-social">
+                            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+    
+            </div>
+        </div> 
+        <!-- side menu end -->
+        <!-- Desktop Nav Bar Menu -->
+
+        <!-- Header Section start -->
+        <header class="th-header header-layout6">
+            <div class="header-top">
+                <div class="container th-container">
+                    <div class="row justify-content-center justify-content-lg-end justify-content-lg-between align-items-center gy-2">
+                        <div class="col-auto d-none d-lg-block">
+                            <div class="header-links">
+                                <ul>
+                                    <li><i class="fa-solid fa-phone"></i><a href="tel:+917599741111">+917599741111</a></li>
+                                    <li><i class="far fa-envelope"></i><a href="mailto:info@drshowryagadde.com">info@amedore.in</a></li>
+                                    <li><i class="fa-regular fa-clock"></i>Mon - Sat: 10 AM - 07 PM</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="social-links">
+                                <span class="social-title">Follow Us:</span>
+                                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                
+                                <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i> </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="sticky-wrapper bg-light">
+                <div class="menu-area">
+                    <div class="container th-container">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-auto">
+                                <div class="header-wrapper">
+                                    <div class="header-button">
+                                        <a href="#" class="icon-btn sideMenuToggler"><i class="ri-grid-fill"></i></a>
+                                        <button class="th-menu-toggle d-inline-block d-xl-none"><i class="fa-solid fa-bars"></i></button>
+                                    </div>
+    
+                                    <nav class="main-menu d-none d-xl-block">
+                                        <ul>
+                                            <li><a href="main.html">Home</a></li>
+                                            <li><a href="aboutus">About us</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="col-auto">
+                                <div class="header-logo"><a href="main.html"><img src="img/Amedore_Logo.png"  alt="" style="height: 70px;"></a></div>
+                            </div>
+    
+                            <div class="col-auto d-none d-xl-block">
+                                <div class="header-wrapper">
+                                    <nav class="main-menu d-none d-lg-inline-block">
+                                        <ul>
+                                            <li><a href="pdf.html">Our Services</a></li>
+                                            <li><a href="main.html">Blog</a></li>
+                                            <li><a href="contact.html">Contact Us</a></li>
+                                        </ul>
+                                    </nav>
+                                    <div class="header-button"><a href="appointment" class="th-btn">Appointment<i class="fa-solid fa-arrow-right ms-2"></i></a> <button class="th-menu-toggle d-inline-block d-lg-none"><i class="far fa-bars"></i></button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header section end -->
+        <!-- contact section start -->
+        <div class="space" id="contact-sec">
+            <div class="container">
+                <div class="row gy-40">
+                    <div class="col-lg-6 col-xl-5">
+                        <div class="contact-info-wrap me-xl-4">
+                            <div class="title-area mb-20">
+                                <h3 class="sec-title">Our Contact Information</h3>
+                                <p>Have a inquiry or some feedback for us? Fill out the form below to contact our team.</p>
+                            </div>
+                            <div class="contact-info">
+                                <div class="contact-info_icon"><i class="ri-map-pin-line"></i></div>
+                                <div class="media-body">
+                                    <h3 class="box-title">Our Address</h3>
+                                    <span class="contact-info_text">
+                                        First floor, Plot no-552, Meghdoot St, beside reliance fresh, near UCO Bank, Saheed Nagar, Bhubaneswar, Odisha 751007</span>
+                                </div>
+                            </div>
+    
+                            <div class="contact-info">
+                                <div class="contact-info_icon"><i class="ri-phone-fill"></i></div>
+                                <div class="media-body">
+                                    <h3 class="box-title">Phone Number</h3>
+                                    <span class="contact-info_text">Mobile: <a href="tel:+917599741111">+917599741111
+                                        </a></span>
+                                    <span class="contact-info_text">Email: <a
+                                            href="mailto:info@drshowryagadde.com">info@drshowryagadde.com</a></span>
+                                </div>
+                            </div>
+                            <div class="contact-info">
+                                <div class="contact-info_icon"><i class="ri-time-fill"></i></div>
+                                <div class="media-body">
+                                    <h3 class="box-title">Hours of Operation</h3>
+                                    <span class="contact-info_text">Monday - Friday: 10AM - 7PM Sunday - Saturday: 10AM -
+                                        6PM</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-7">
+                        <div class="map-sec">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2260.5147094928957!2d85.8441732783314!3d20.287920062915003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a190949a8e694fd%3A0xf3fe91f6e5b51c0e!2sAmedore%20luxury%20salon!5e1!3m2!1sen!2sin!4v1731553859814!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="contact-form-wrapper">
+    
+                            <form id="" name="regFrm" class="booking-form-area ajax-booking" method="post"
+                                action="appoint-Config.php" enctype="multipart/form-data">
+                                <h2 class="form-title text-center">Get In Touch</h2>
+                                <div class="row">
+                                    <div class="form-group col-md-6">
+                                        <i class="ri-user-line"></i>
+                                        <input type="text" placeholder="First Name" class="form-control" name="fname"
+                                            required>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <i class="ri-user-line"></i>
+                                        <input type="text" placeholder="Last Name" class="form-control" name="lname"
+                                            required>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <i class="ri-mail-fill"></i>
+                                        <input type="email" placeholder="Email" class="form-control" name="email" required>
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <i class="ri-phone-fill"></i>
+                                        <input type="text" placeholder="phone" class="form-control"
+                                            onkeyup="this.value=this.value.replace(/[^\d]/,'')" maxlength="10" name="phone"
+                                            required>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <i class="ri-arrow-down-circle-line"></i>
+                                        <select name="treatment" id="subject" class="form-select nice-select" required>
+                                            <option value="" disabled="disabled" selected="selected" hidden>Select Treatment
+                                            </option>
+                                            <option value="Skin">Skin</option>
+                                            <option value="Hair">Hair</option>
+                                            <option value="Body">Body</option>
+                                            <option value="Wellness">Wellness</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <input type="text" class="date-pick form-control" name="adate" id="date-pick"
+                                            placeholder="Select Date" required>
+                                            <i class="ri-calendar-2-line"></i>
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <input type="text" class="time-pick form-control" name="atime" id="time-pick"
+                                            placeholder="Select Time" required>
+                                            <i class="ri-time-line"></i>
+                                    </div>
+                                    <div class="btn-group justify-content-center justify-content-lg-start">
+                                        <button class="th-btn fw-btn" name="register">Make An Appointment <i
+                                                class="fa-solid fa-arrow-right ms-2"></i></button>
+                                    </div>
+                                </div>
+                                <p class="form-messages mb-0 mt-3"></p>
+                            </form>
+    
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- contact section end -->
+        <!-- Desktop Nav Bar Menu -->
+        <!-- footer section start -->
+        <footer>
+    
+            <div class="footer-container">
+                <!-- Logo and Social Icons -->
+                <div class="footer-logo">
+                    <img src="./img/Amedore_Logo.png" alt="">
+                </div>
+                
+                
+                    <div class="footer-column t mx-2">
+                        <h3>Our Services</h3>
+                        <hr>
+                        <div class="mt-2">
+                                <a href="#wwd"><i class="ri-drag-move-line"></i> Hair Styling</a>
+                                <a href="#wwd"><i class="ri-drag-move-line"></i> Luxury Facials</a>
+                                <a href="#wwd"><i class="ri-drag-move-line"></i> Nail Art & Care</a>
+                                <a href="#wwd"><i class="ri-drag-move-line"></i> Full Body Massage</a>
+                        </div>
+                    </div>
+                    <div class="footer-column t mx-2">
+                        <h3>About Us</h3>
+                        <hr>
+                        <div class="mt-2">
+                            <a href="#cms"> <i class="ri-drag-move-line"></i> Our Story</a>
+                            <a href="#"><i class="ri-drag-move-line"></i> Careers</a>
+                            <a href="#insta"><i class="ri-drag-move-line"></i> Press & Media</a>
+                            <a href="./contact.html"> <i class="ri-drag-move-line"></i> Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="footer-column t mx-4">
+                        <h3>Support</h3>
+                        <hr>
+                        <div class="mt-2">
+                            <a href="#"><i class="ri-drag-move-line"></i> Help Center</a>
+                            <a href="#"><i class="ri-drag-move-line"></i> Privacy Policy</a>
+                            <a href="#"><i class="ri-drag-move-line"></i> Terms & Conditions</a>
+                            <a href="#"><i class="ri-drag-move-line"></i> Live Chat</a>
+                        </div>
+                    </div>
+                    <div class="footer-column mx-4 ">
+                        <div class="widget t footer-widget">
+                            <h3>Social Links</h3>
+                            <hr>
+                            <div class="mt-5">
+                                <div class="th-social footer-social style2 mt-1">          <!--   -->
+                                    <a href="https://m.facebook.com/100069663131772/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://www.linkedin.com/"><i class="fab fa-whatsapp"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- </div> -->
+        
+                <!-- Footer Bottom -->
+                <div class="footer-bottom l">
+                    <p style="color: white;font-size: 20px;"> Copyright ©️ 2024 <span style="color: #ffc107;">Luxary Salon.</span> All rights reserved.</p><br>
+                    <p style="color: white;font-size: 20px;">Website crafted with ♥️ by <span style="color: #ffc107;">My Accentic Digital Solutions</span></p>
+                </div>
+            </div>
+        </footer>
+
+<!-- Inline JavaScript for Smooth Scroll & Animations -->
+<script>
+    // Smooth scroll for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+    // Add fade-in effect on scroll
+    const footer = document.querySelector('footer');
+    window.addEventListener('scroll', function () {
+        const footerTop = footer.getBoundingClientRect().top;
+        const screenBottom = window.innerHeight;
+        if (footerTop < screenBottom) {
+            footer.style.opacity = 1;
+            footer.style.transform = 'translateY(0)';
+        }
+    });
+
+    // Initial animation setup
+    footer.style.opacity = 1;
+    footer.style.transform = 'translateY(20px)';
+</script>
+<!-- footer section end -->
+    <!-- Inline JavaScript for Smooth Scroll & Animations -->
+    <script>
+        // Smooth scroll for internal links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add fade-in effect on scroll
+        const footer = document.querySelector('footer');
+        window.addEventListener('scroll', function () {
+            const footerTop = footer.getBoundingClientRect().top;
+            const screenBottom = window.innerHeight;
+            if (footerTop < screenBottom) {
+                footer.style.opacity = 1;
+                footer.style.transform = 'translateY(0)';
+            }
+        });
+
+        // Initial animation setup
+        footer.style.opacity = 0;
+        footer.style.transform = 'translateY(20px)';
+    </script>
+        
+    </div>
+</body>
+</html>
